@@ -103,8 +103,9 @@
 		
         // Check for screen size below 1000px
         function isMobile() {
-            return window.innerWidth <= 1000;
-        }	
+		const desktopBrowsersRegex = /(?:Windows NT|Macintosh|Linux).*?(?:Chrome|Firefox|Safari|Edge|Opera)/i;
+        	return !desktopBrowsersRegex.test(navigator.userAgent);
+	}	
 
 		const truncateText = (text, maxLength) => text.length > maxLength ? text.substr(0, maxLength) + '...' : text;
 
