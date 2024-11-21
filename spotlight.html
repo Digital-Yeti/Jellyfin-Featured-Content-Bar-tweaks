@@ -261,8 +261,10 @@
 					},
 					events: {
 						'onReady': event => {
-							event.target.playVideo();
-							event.target.setVolume(4);
+							if(window.top.location.href.includes('home.html')) {
+								event.target.playVideo();
+								event.target.setVolume(4);
+							}
 						},
 						'onStateChange': event => {
 							if (event.data === YT.PlayerState.PLAYING) {
