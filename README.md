@@ -1,3 +1,10 @@
+#Mods
+- Low audio instead of no trailer audio
+- better mobile device detection
+- fixes to stop audio playing on pages that do not show the banner
+-------------------------------------------------------------------------
+
+
 # Featured Content Bar
 Thanks to [SethBacon](https://forum.jellyfin.org/u-sethbacon) & [BobHasNoSoul](https://github.com/BobHasNoSoul) & [MakD](https://github.com/MakD) for their talents
 
